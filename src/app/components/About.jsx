@@ -60,8 +60,13 @@ const About = () => {
           className="about-content"
         >
           <p className="about-text">
-            I am an frontend developer with over 2 years of learning experience.
-            I am starting to build my work experience and grow as a developer.
+            I am a JavaScript developer with around 3 years of hands-on
+            experience building mobile apps with React Native and modern web
+            applications using React, Next.js, Node.js, HTML, and CSS. I am
+            passionate about building clean, efficient, and user-focused
+            products. I am  currently looking for a junior developer or internship
+            role where I can gain professional experience, contribute to real
+            projects, and grow as a software engineer.
           </p>
           <motion.div
             initial={{ opacity: 0 }}
@@ -72,12 +77,12 @@ const About = () => {
             <motion.span whileHover={{ scale: 1.05 }}>
               <Image src={"/tagII.png"} alt="tag" width={40} height={40} />
               <h3>Languages</h3>
-              <p>Html, CSS, JavaScript, Node.Js, REACT, Next.js</p>
+              <p>Html, CSS, JavaScript, Node.Js, REACT, Next.js, Node.js, Express, React Native</p>
             </motion.span>
             <motion.span whileInView={{ scale: 1.05 }}>
               <Image src={"/education.png"} alt="tag" width={40} height={35} />
               <h3>Education</h3>
-              <p>First class 2nd year student Leadcity University</p>
+              <p>First class 3rd year student Leadcity University</p>
             </motion.span>
             <motion.span whileInView={{ scale: 1.05 }}>
               <Image src={"/project.png"} alt="tag" width={40} height={35} />
@@ -100,14 +105,13 @@ const About = () => {
               Tools i use
             </motion.h4>
             <motion.ul
-              initial={{ opacity: 0}}
+              initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ duration: 0.6, delay: 1.5 }}
               className="tools"
               style={{ display: "flex", gap: "12px", alignItems: "center" }}
             >
-              <motion.li
-              whileHover={{scale:1.1}}>
+              <motion.li whileHover={{ scale: 1.1 }}>
                 <Image
                   className="tools-img"
                   src={"/vscode.png"}
@@ -116,8 +120,7 @@ const About = () => {
                   height={25}
                 />
               </motion.li>
-              <motion.li
-              whileHover={{scale:1.1}}>
+              <motion.li whileHover={{ scale: 1.1 }}>
                 <Image
                   className="tools-img"
                   src={theme === "dark" ? "/mongo-dark.png" : "/mongodb.png"}
@@ -126,8 +129,7 @@ const About = () => {
                   height={25}
                 />
               </motion.li>
-              <motion.li
-              whileHover={{scale:1.1}}>
+              <motion.li whileHover={{ scale: 1.1 }}>
                 <Image
                   className="tools-img"
                   src={theme === "dark" ? "/github-dark.png" : "/github.png"}
@@ -136,8 +138,7 @@ const About = () => {
                   height={25}
                 />
               </motion.li>
-              <motion.li
-              whileHover={{scale:1.1}}>
+              <motion.li whileHover={{ scale: 1.1 }}>
                 <Image
                   className="tools-img"
                   src={theme === "dark" ? "/figma-dark.png" : "/figma.png"}

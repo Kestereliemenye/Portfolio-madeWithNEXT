@@ -42,7 +42,7 @@ const Header = () => {
           className="header-title"
           style={{ fontSize: "1.75rem", fontFamily: "Ovo" }}
         >
-          I'm a frontend developer based in Lagos.
+          I'm a software developer based in Lagos.
         </motion.h1>
         <motion.p
           initial={{ opacity: 0 }}
@@ -55,7 +55,7 @@ const Header = () => {
             maxWidth: "672px",
           }}
         >
-          I am a fullstatck developer with 2.5 years of experience
+          I am a software developer with 3 years of experience
         </motion.p>
         <div className="header-btns">
           <motion.a
