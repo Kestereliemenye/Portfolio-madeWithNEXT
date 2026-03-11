@@ -97,7 +97,7 @@ const About = () => {
                 textAlign: "left",
               }}
             >
-              Tools i can use
+              Tools i use
             </motion.h4>
             <motion.ul
               initial={{ opacity: 0}}
