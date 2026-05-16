@@ -89,7 +89,7 @@ const Header = () => {
             initial={{ y: 30, opacity: 0 }}
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.6, delay: 1.2 }}
-            href={"/sample-resume.docx"}
+            href={"/new-resume.docx"}
             download
             style={{
               border: "1px solid black",
@@ -103,7 +103,7 @@ const Header = () => {
               padding: "12px 40px",
             }}
           >
-            My resume{" "}
+            My resume
             <Image
               src={"/download-icon.png"}
               alt="downlaod"
